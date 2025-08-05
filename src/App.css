@@ -1,0 +1,82 @@
+
+
+.banner {
+  display: flex;
+  flex-direction: column;
+  gap: 118px;
+  height: 776px;
+  background-image: url("./assets/coffee_image075.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  width: 100vw;
+  padding: 0 93px;
+  position: relative;
+  box-shadow: inset 60em 2em 6em rgba(0, 0, 0, 0.623)
+}
+
+
+.header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 20px 0;
+}
+
+.logotipo {
+  font-family: "Clicker Script", cursive;
+  font-size: 35px;
+}
+
+.auth-wrapper {
+  display: inline-flex;
+  align-items: center;
+  gap: 35px;
+}
+
+.nav-menu {
+  display: inline-flex;
+  gap: 60px;
+
+}
+
+ .btn {
+      background-color: #F9C06A;
+      padding: 14px 27px;
+      border-radius: 24px;
+      border: none;
+      cursor: pointer;
+      color: #000;
+   }
+
+.first {
+  font-size: 22px;
+  font-weight: 500;
+}
+.links {
+  color: white;
+  text-decoration: none;
+
+}
+.banner-text {
+  display: flex;
+  flex-direction: column;
+  width: 530px;
+  gap: 20px;
+  
+}
+
+.last {
+  font-size: 20px;
+  text-align: left;
+  line-height: 34px;
+  font-weight: normal;
+}
+.banner-text_main{
+  font-family: "Playfair Display", serif;
+}
+
+#banner-text_middle {
+  font-family: "Clicker Script", cursive;
+  font-size: 220px;
+}
